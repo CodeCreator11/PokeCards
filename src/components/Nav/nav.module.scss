@@ -1,0 +1,46 @@
+.nav{
+    background-color: rgb(196, 55, 55);
+    .div_nav{
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1400px;
+        max-width: calc(100% - 30px);
+        margin: 0 auto;
+
+        .logo{
+            >img{
+                width: 120px;
+            }
+        }
+
+        .input{
+            width: 30%;
+            display: flex;
+            align-items: center;
+
+            @media screen and (max-width: 500px) {
+                width: 50%;
+            }
+            
+
+
+        }
+
+        .lupita{
+            color: white;
+            margin-right: 5px;
+
+        }
+
+        .input2{
+            width: auto;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            padding: 4px 10px;
+        }
+
+    }
+}

@@ -1,0 +1,58 @@
+.card_content{
+    width: 1400px;
+    max-width: calc(100% - 30px);
+    margin: 0 auto;
+
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 25px;
+    padding-bottom: 30px;
+    
+}
+
+.section_pag{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+    .div_pag{
+        width: auto;
+        background-color: rgb(196, 55, 55);
+        display: flex;
+        border-radius: 8px;
+        overflow: hidden;
+
+        .left_item{
+            background-color: rgb(196, 55, 55);
+            height: 30px;
+            width: 30px;
+            color: aliceblue;
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+        }
+
+
+        .item{
+            color: aliceblue;
+            height: 30px;
+            width: 30px;
+            display: grid;
+            place-items: center;
+            background-color: rgb(196, 55, 55);
+        }
+
+        .right_item{
+            background-color: rgb(196, 55, 55);
+            height: 30px;
+            width: 30px;
+            color: aliceblue;
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+        }
+
+    }
+
+}
